@@ -1,6 +1,27 @@
 """Shared test fixtures for PathReview."""
 
+from datetime import UTC, datetime
+
 import pytest
+
+from core.models.profile import Profile
+
+
+@pytest.fixture
+def sample_user_profile(sample_resume_text: str) -> Profile:
+    """Return a realistic, persisted-looking user profile for testing."""
+    created_at = datetime(2024, 1, 15, 12, 0, tzinfo=UTC)
+
+    return Profile(
+        id="123e4567-e89b-12d3-a456-426614174000",
+        user_id="123e4567-e89b-12d3-a456-426614174001",
+        github_username="janedoe",
+        resume_filename="jane_doe_resume.pdf",
+        resume_text=sample_resume_text,
+        portfolio_url="https://janedoe.dev",
+        created_at=created_at,
+        updated_at=created_at,
+    )
 
 
 @pytest.fixture

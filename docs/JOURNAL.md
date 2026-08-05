@@ -29,3 +29,34 @@ docs/PLAN.md
 
 **Blockers or open questions:**
 The blocker is I thought that I need to restore the deleted folder, so I went through the commits history in the github repo to find that folder. However, I can't find that folder at all. After rereading and understanding what restore mean, I then write a plan for create that file instead
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I implement the conftest.py and adding sample resumes for the test to run based on the issue
+
+**Next steps:**
+I will double check on if it can run the relevant tests
+
+**Blockers:**
+[Anything slowing you down? Or leave blank.]
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** [the branch name you worked on, e.g. `fix/123-short-description`]
+
+**What you built:**
+[1–3 sentences summarizing what your fix does and how it works]
+
+**Tests added or updated:**
+[Which test files did you touch? What do they cover?]
+
+**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+
+**Draft PR feedback received from:** [name or Slack handle, or "none"]
