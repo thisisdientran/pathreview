@@ -47,16 +47,16 @@ I will double check on if it can run the relevant tests
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** [https://github.com/thisisdientran/pathreview/tree/test/106-test-fixture-for-a-sample-user-profile]
 
-**Branch:** [the branch name you worked on, e.g. `fix/123-short-description`]
+**Branch:** [106-test-fixture-for-a-sample-user-profile]
 
 **What you built:**
-[1–3 sentences summarizing what your fix does and how it works]
+I created conftest.py and added the sample resume in it
 
 **Tests added or updated:**
-[Which test files did you touch? What do they cover?]
+conftest.py and test_review_service.py
 
-**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"]
