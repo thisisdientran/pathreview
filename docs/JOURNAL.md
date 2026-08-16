@@ -60,3 +60,34 @@ conftest.py and test_review_service.py
 **Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"]
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+[What did reviewers comment on? Or note that no review came in.]
+
+**How you responded:**
+[I see my grade but didn't see the feedback]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[The part harder than I expect is ensure the test not fail after adding the the part of the requirement into the test]
+
+**What did you learn about working in a large codebase?**
+[I found that it is very important to create seperate branch to avoid creating problem]
+
+**How did AI tools help — and where did they fall short?**
+[I found the AI tool help me understand the assignment and find the file location to help me understand the project]
+
+**What would you do differently if you started over?**
+[I would choice the same problem, but this time, I will approach the TP more so I can get the tip from them]
+
+**What are you most proud of from this module?**
+[I can contribute to the project for the first time]
